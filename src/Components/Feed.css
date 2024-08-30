@@ -1,0 +1,39 @@
+.feed {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.video-item {
+    width: calc(25% - 20px); /* Adjust to fit four items in a row with gaps */
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.video-item:hover {
+    transform: scale(1.05);
+}
+
+.video-thumbnail {
+    width: 100%;
+    height: auto;
+}
+
+.video-details {
+    padding: 10px;
+}
+
+.video-details h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.video-details p {
+    font-size: 14px;
+    color: #606060;
+    margin: 5px 0;
+}
